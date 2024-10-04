@@ -8,6 +8,18 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <!-- inicio offCanvas -->
+  <div class="offcanvas offcanvas-start" id="demo">
+    <div class="offcanvas-header">
+      <h1 class="offcanvas-title">El dinero es dinero, aprende algo dinero</h1>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+    </div>
+    <div class="offcanvas-body">
+      <p>te vendo dinero.</p>
+      <p>precio?.</p>
+      <button class="btn btn-secondary" type="button">SI</button>
+    </div>
+  </div>
   <!-- inicio navbar -->
   <nav class="navbar navbar-expand-lg" style="background-color: #218d24" >
     <div class="container-fluid" style="background-color: #58DB89;">
@@ -52,7 +64,7 @@
     <div class="modal-content">
 
       <!-- Modal Header -->
-      <div class="modal-header" style="background-color: ">
+      <div class="modal-header" style="background-color: blue ">
         <h4 class="modal-title" style="color: crimson;">modal-header 0_0</h4>
         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
       </div>
@@ -66,6 +78,31 @@
       <!-- Modal footer -->
       <div class="modal-footer">
         <button type="button" class="btn btn-danger" data-bs-dismiss="modal">closefooter *_*</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+ <!-- The Modal -->
+ <div class="modal" id="myModali">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header" style="background-color: burlywood">
+        <h4 class="modal-title" style="color: crimson;">John Doe</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body" style="color: blueviolet;">
+      Edad: 2 Estudios: Ninguno Experiencia: 1 año Especialidad: cazar ratones
+      origen: bosque descripcion: miau...
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">cerrar</button>
       </div>
 
     </div>
@@ -130,7 +167,23 @@
             <p>pe causa</p>
     </div></div>
       <div class="container-fluid">
+          <!-- cards -->
+  <div class="card" style="width:400px">
+    <img class="card-img-top" src="imajen/cat-7210553_1920.jpg" alt="Card image">
+    <div class="card-body">
+      <h4 class="card-title">John Doe</h4>
+      <p class="card-text">miau....</p>
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModali">
+        perfil
+         </button>
+      <!--<a href="#" class="btn btn-primary">Acariciar</a>-->
+    </div>
+  </div>
         <button type="button" class="btn btn-secondary">agregar</button>
+        <!-- Button to open the offcanvas sidebar -->
+        <button class="btn btn-secondary" style="color: aliceblue;" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
+        Open Offcanvas Sidebar
+       </button>
         <h2>container-fluid</h2>
         <p>chale tengo hambre</p>
         <h2>division</h2>
